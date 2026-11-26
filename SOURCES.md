@@ -76,3 +76,7 @@ As obras abaixo representam perspectivas conhecidas sobre dramaturgia, roteiro, 
 - Incluir dramaturgia e tradições narrativas latino-americanas, africanas, árabes e do sul da Ásia com fontes de primeira mão.
 - Revisar periodicamente compatibilidade com geradores de vídeo.
 - Adicionar estudos de cenas somente quando houver fontes legítimas e material de análise verificável.
+
+
+## Estudo de canal (v1.1)
+- Jun Lie (youtube.com/@Junliee): 48 legendas automáticas (~102 mil palavras) e 12 vídeos medidos por detecção de cena, em 26/11/2026. Usado só para extrair mecanismos, números e estrutura; nenhuma fala reproduzida.

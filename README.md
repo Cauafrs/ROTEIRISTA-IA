@@ -26,7 +26,12 @@ A proposta não é imitar um roteirista famoso nem aplicar uma fórmula a toda h
     ├── fundamentos-de-roteiro.md
     ├── atlas-de-cinema-e-roteiristas.md
     ├── pipeline-de-video-com-ia.md
-    └── modelos-e-checklists.md
+    ├── modelos-e-checklists.md
+    └── roteiro-de-comentario-e-react.md
+ferramentas/
+    ├── vtt_texto.py
+    └── edicao_metricas.py
+aprendizados.md
 ```
 
 ## Como usar
@@ -72,4 +77,4 @@ As listas de “melhores” são tratadas como recortes de votação e curadoria
 
 ## Estado
 
-Versão inicial de pesquisa e operação: 1.0. O material é deliberadamente modular para receber estudos de caso, modelos e adaptações futuras para ferramentas específicas.
+Versão 1.1 (26/11/2026): módulo de roteiro de comentário/react (estudo de 48 roteiros e 12 edições do canal Jun Lie), ferramentas de estudo de canal e arquivo de aprendizados. Versão 1.0: pesquisa e operação inicial. O material é deliberadamente modular para receber estudos de caso, modelos e adaptações futuras para ferramentas específicas.

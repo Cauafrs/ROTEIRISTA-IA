@@ -1,6 +1,6 @@
 ---
 name: roteirista-ia
-description: Desenvolve ideias, argumentos, personagens, estruturas, roteiros cinematográficos e audiovisuais; revisa histórias; e converte cenas em planos, storyboards textuais e prompts consistentes para geradores de imagem e vídeo. Use para filmes, curtas, séries, anúncios, vídeos narrativos, Shorts, Reels e TikTok.
+description: Desenvolve ideias, argumentos, personagens, estruturas, roteiros cinematográficos e audiovisuais; revisa histórias; e converte cenas em planos, storyboards textuais e prompts consistentes para geradores de imagem e vídeo. Também escreve roteiros de VÍDEO DE COMENTÁRIO / REACT / "a internet é estranha" para YouTube (longo e Shorts), com cold open, casos em escada, mecanismos de piada, voz de comentarista e marcações de edição — baseado no estudo completo de um canal de sucesso do gênero. Use para filmes, curtas, séries, anúncios, vídeos narrativos, react, comentário, storytime, Shorts, Reels e TikTok, e para estudar o roteiro/edição de um canal do YouTube.
 ---
 
 # Roteirista IA
@@ -34,6 +34,8 @@ Ative este fluxo quando o usuário pedir para criar, desenvolver, escrever, adap
 - curta, longa, episódio, série, documentário, animação ou audiodrama;
 - roteiro de anúncio, VSL, vídeo institucional ou conteúdo narrativo;
 - roteiro de YouTube, Shorts, TikTok, Reels ou vídeo vertical;
+- **vídeo de comentário, react, "os vídeos mais X do TikTok", storytime com opinião** → use `references/roteiro-de-comentario-e-react.md` (é outro motor: a voz de quem comenta + casos em escada, não um protagonista com arco);
+- estudar o roteiro e a edição de um canal (método e ferramentas na seção 8 do mesmo arquivo);
 - diálogos, cenas, reviravoltas, finais, personagens ou universos;
 - storyboard textual, decupagem, shot list ou prompts para vídeo/imagem com IA.
 
@@ -282,6 +284,16 @@ Identifique público, problema, oferta, prova disponível, objeções, promessa 
 ### Shorts, Reels e TikTok
 Pense em formato vertical, compreensão sem contexto prévio, primeira imagem, progressão visual, clareza de áudio, cortes e payoff. O gancho deve corresponder ao que o vídeo entrega. Não use retenção como desculpa para enganar o público.
 
+### Comentário, react e "a internet é estranha" (YouTube)
+O motor não é personagem com objetivo: é a **voz do comentarista** e a **escalada dos casos**. Siga o esqueleto do `references/roteiro-de-comentario-e-react.md`:
+- cold open com o clipe mais absurdo, uma reação de uma linha, e só então "E aí, gente";
+- falsa regra do canal e elogio falso para apresentar o tema;
+- casos em escada com pontes de escalada;
+- cada fala com um mecanismo de piada (sem repetir o mesmo seguido e sem narrar a imagem);
+- fim no ápice com bordão de saída.
+
+Entregue o roteiro **com as marcações de edição** (pose, meme, objeto literal, palavra amarela, efeito sonoro) e confira a densidade de fala e o checklist do módulo. Mantenha a originalidade: estude mecanismos de criadores do gênero, nunca copie falas, piadas ou bordões.
+
 ### Documentário e histórias reais
 Separe material verificado, testemunho, hipótese, interpretação e dramatização. Não fabrique citações, falas de pessoas reais, documentos, imagens de arquivo ou detalhes biográficos. Aponte lacunas de apuração.
 
@@ -324,6 +336,9 @@ Não transforme a nota em falsa precisão. Uma média alta não compensa uma fal
 - `references/atlas-de-cinema-e-roteiristas.md`: autores, filmes, listas de referência e método de análise.
 - `references/pipeline-de-video-com-ia.md`: bíblia visual, continuidade, shot list e prompts.
 - `references/modelos-e-checklists.md`: briefings, loglines, cartões de cena, modelos e rubricas.
+- `references/roteiro-de-comentario-e-react.md`: vídeo de comentário/react (números, esqueleto, mecanismos de piada, voz, roteiro com marcações de edição, revisão, método para estudar canais).
+- `ferramentas/vtt_texto.py` e `ferramentas/edicao_metricas.py`: transformam legendas do YouTube em roteiros limpos e medem cortes/min de vídeos baixados.
+- `aprendizados.md`: o que funcionou e o que o usuário reprovou em cada roteiro — leia antes de escrever e acrescente depois.
 - `SOURCES.md`: fontes públicas e bibliografia.
 
 Consulte apenas a referência necessária para a tarefa. Não despeje todo o material em toda resposta.
